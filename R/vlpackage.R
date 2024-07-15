@@ -43,3 +43,12 @@ govlab_color_new <- c(
   `white` = "#F4F2EF")
 
 
+#' @title String Wrap
+#' @description
+#' @param
+#' @return
+#' @export
+string_wrap <- function(s, width) {
+  unlist(lapply(s, function(s) paste(strwrap(s,width), collapse="\n")))
+}
+

@@ -23,7 +23,11 @@ library(viridisLite)
 #'
 #'
 
-
+#' @title Govlab barvy
+#' @description
+#' @param
+#' @return
+#' @export
 # Govlab barvy ===================
 govlab_color <- c(
   `blue`        = "#00415f",
@@ -43,6 +47,8 @@ govlab_color_new <- c(
   `orange` = "#DDAA6B",
   `yellow`  = "#ECD474",
   `white` = "#F4F2EF")
+
+
 
 # Vraci zadany text s odradkovany po dosazeni sirky width
 string_wrap <- function(s, width) {

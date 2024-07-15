@@ -21,7 +21,6 @@ library(viridisLite)
 
 #' Fahrenheit conversion
 #'
-#' Convert degrees Fahrenheit temperatures to degrees Celsius
 #'
 
 

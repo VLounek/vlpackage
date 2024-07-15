@@ -19,7 +19,7 @@ library(dplyr)
 library(plotwidgets)
 library(viridisLite)
 
-#' Funkce
+#' Funkce 1
 #'
 #'
 
